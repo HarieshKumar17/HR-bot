@@ -1,0 +1,284 @@
+2025-03-24 00:27:01,804 - src.llm_service - ERROR - Error initializing LLM service: Client.__init__() got an unexpected keyword argument 'proxies'
+2025-03-24 00:32:51,070 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:33:21,917 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:34:01,241 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:34:05,511 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:34:05,898 - src.data_processor - ERROR - Error loading HRM data: 'experience'
+2025-03-24 00:34:05,898 - __main__ - ERROR - Error loading data: 'experience'
+2025-03-24 00:34:06,365 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:34:33,390 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:34:33,493 - src.data_processor - ERROR - Error loading HRM data: 'experience'
+2025-03-24 00:34:33,494 - __main__ - ERROR - Error loading data: 'experience'
+2025-03-24 00:34:33,926 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:35:22,978 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:35:23,061 - src.data_processor - ERROR - Error loading HRM data: 'experience'
+2025-03-24 00:35:23,062 - __main__ - ERROR - Error loading data: 'experience'
+2025-03-24 00:35:23,480 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:40:19,371 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:40:28,725 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:40:32,510 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:40:32,794 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:40:32,795 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:40:32,796 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:40:32,796 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:40:32,814 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:40:32,815 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:40:32,816 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:40:32,817 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:40:33,249 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:41:21,898 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:41:21,980 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:41:21,981 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:41:21,982 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:41:21,982 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:41:22,008 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:41:22,009 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:41:22,009 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:41:22,010 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:41:22,448 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:41:22,453 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 00:41:22,454 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role
+2025-03-24 00:41:22,460 - src.candidate_recommender - INFO - Found 0 qualified candidates
+2025-03-24 00:41:22,461 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 00:41:22,909 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 00:41:22,910 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 00:43:00,060 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:43:00,146 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:43:00,150 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:43:00,152 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:43:00,153 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:43:00,174 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:43:00,175 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:43:00,176 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:43:00,177 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:43:00,592 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:43:00,596 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 00:43:00,597 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role
+2025-03-24 00:43:00,601 - src.candidate_recommender - INFO - Found 0 qualified candidates
+2025-03-24 00:43:00,602 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 00:43:00,940 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 00:43:00,941 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 00:43:23,697 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:43:23,794 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:43:23,795 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:43:23,796 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:43:23,796 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:43:23,817 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:43:23,817 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:43:23,819 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:43:23,822 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:43:24,259 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:43:24,264 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 00:43:24,264 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role
+2025-03-24 00:43:24,275 - src.candidate_recommender - INFO - Found 0 qualified candidates
+2025-03-24 00:43:24,277 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 00:43:24,569 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 00:43:24,569 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 00:43:47,704 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:43:47,783 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:43:47,787 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:43:47,789 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:43:47,790 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:43:47,809 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:43:47,809 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:43:47,810 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:43:47,811 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:43:48,234 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:43:54,582 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:43:58,526 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:44:01,140 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:44:01,234 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:44:01,235 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:44:01,236 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:44:01,237 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:44:01,258 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:44:01,259 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:44:01,259 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:44:01,260 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:44:01,734 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:44:04,227 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:44:04,311 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:44:04,312 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:44:04,313 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:44:04,313 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:44:04,331 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:44:04,333 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:44:04,335 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:44:04,336 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:44:04,763 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:44:04,765 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 00:44:04,766 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role
+2025-03-24 00:44:04,768 - src.candidate_recommender - WARNING - No outgoing candidates found, using all candidates
+2025-03-24 00:44:04,780 - src.candidate_recommender - INFO - Found 5 qualified candidates
+2025-03-24 00:44:04,781 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 00:44:04,890 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 00:44:04,891 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 00:45:20,690 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:45:24,928 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:45:30,693 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:45:32,772 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:45:33,234 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:45:33,235 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:45:33,235 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:45:33,236 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:45:33,253 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:45:33,254 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:45:33,255 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:45:33,256 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:45:33,692 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:45:34,875 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 00:45:34,964 - src.data_processor - WARNING - 'experience' column not found in HRM data, creating with default values
+2025-03-24 00:45:34,964 - src.data_processor - WARNING - 'personality' column not found in HRM data, creating with default values
+2025-03-24 00:45:34,965 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 00:45:34,965 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 00:45:34,987 - src.data_processor - WARNING - 'employee_name' column not found in Work data, creating with default values
+2025-03-24 00:45:34,989 - src.data_processor - WARNING - 'project' column not found in Work data, creating with default values
+2025-03-24 00:45:34,990 - src.data_processor - WARNING - 'description' column not found in Work data, creating with default values
+2025-03-24 00:45:34,991 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 00:45:35,401 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 00:45:35,405 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 00:45:35,405 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role
+2025-03-24 00:45:35,408 - src.candidate_recommender - WARNING - No outgoing candidates found, using all candidates
+2025-03-24 00:45:35,420 - src.candidate_recommender - INFO - Found 5 qualified candidates
+2025-03-24 00:45:35,420 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 00:45:35,625 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 00:45:35,626 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:09:53,844 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:09:53,846 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 01:09:53,942 - src.data_processor - ERROR - Error analyzing schema: a must be greater than 0 unless no samples are taken
+2025-03-24 01:09:53,943 - src.data_processor - INFO - Deriving experience from 'service_days_adj'
+2025-03-24 01:09:53,944 - src.data_processor - INFO - Using 'performance' to derive personality traits
+2025-03-24 01:09:53,951 - src.data_processor - INFO - Project information found in HRM data
+2025-03-24 01:09:53,953 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 01:09:53,953 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 01:09:53,977 - src.data_processor - INFO - Schema analysis completed for work dataset
+2025-03-24 01:09:53,978 - src.data_processor - INFO - Work data has employee_no but not employee_name
+2025-03-24 01:09:53,978 - src.data_processor - INFO - Using work_summary as description
+2025-03-24 01:09:53,980 - src.data_processor - INFO - Attempting to extract project information from work_summary
+2025-03-24 01:09:53,984 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 01:09:53,990 - src.data_processor - INFO - Relationship analysis completed between datasets
+2025-03-24 01:09:53,993 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:09:54,200 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:09:54,201 - src.llm_service - ERROR - Error analyzing data structure: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:09:54,203 - src.data_processor - INFO - Joining HRM and Work datasets
+2025-03-24 01:09:54,204 - src.data_processor - INFO - Joining datasets on employee_no
+2025-03-24 01:09:54,209 - src.data_processor - INFO - Joined dataset created with 15 records
+2025-03-24 01:09:57,411 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:09:57,412 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 01:09:57,489 - src.data_processor - ERROR - Error analyzing schema: a must be greater than 0 unless no samples are taken
+2025-03-24 01:09:57,489 - src.data_processor - INFO - Deriving experience from 'service_days_adj'
+2025-03-24 01:09:57,490 - src.data_processor - INFO - Using 'performance' to derive personality traits
+2025-03-24 01:09:57,493 - src.data_processor - INFO - Project information found in HRM data
+2025-03-24 01:09:57,494 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 01:09:57,494 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 01:09:57,513 - src.data_processor - INFO - Schema analysis completed for work dataset
+2025-03-24 01:09:57,514 - src.data_processor - INFO - Work data has employee_no but not employee_name
+2025-03-24 01:09:57,514 - src.data_processor - INFO - Using work_summary as description
+2025-03-24 01:09:57,515 - src.data_processor - INFO - Attempting to extract project information from work_summary
+2025-03-24 01:09:57,516 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 01:09:57,520 - src.data_processor - INFO - Relationship analysis completed between datasets
+2025-03-24 01:09:57,523 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:09:57,632 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:09:57,633 - src.llm_service - ERROR - Error analyzing data structure: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:09:57,636 - src.data_processor - INFO - Joining HRM and Work datasets
+2025-03-24 01:09:57,636 - src.data_processor - INFO - Joining datasets on employee_no
+2025-03-24 01:09:57,640 - src.data_processor - INFO - Joined dataset created with 15 records
+2025-03-24 01:10:07,164 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:10:11,872 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:10:14,754 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:10:14,756 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 01:10:14,854 - src.data_processor - ERROR - Error analyzing schema: a must be greater than 0 unless no samples are taken
+2025-03-24 01:10:14,854 - src.data_processor - INFO - Deriving experience from 'service_days_adj'
+2025-03-24 01:10:14,855 - src.data_processor - INFO - Using 'performance' to derive personality traits
+2025-03-24 01:10:14,857 - src.data_processor - INFO - Project information found in HRM data
+2025-03-24 01:10:14,858 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 01:10:14,861 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 01:10:14,888 - src.data_processor - INFO - Schema analysis completed for work dataset
+2025-03-24 01:10:14,889 - src.data_processor - INFO - Work data has employee_no but not employee_name
+2025-03-24 01:10:14,889 - src.data_processor - INFO - Using work_summary as description
+2025-03-24 01:10:14,890 - src.data_processor - INFO - Attempting to extract project information from work_summary
+2025-03-24 01:10:14,891 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 01:10:14,894 - src.data_processor - INFO - Relationship analysis completed between datasets
+2025-03-24 01:10:14,896 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:10:15,038 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:10:15,039 - src.llm_service - ERROR - Error analyzing data structure: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:10:15,041 - src.data_processor - INFO - Joining HRM and Work datasets
+2025-03-24 01:10:15,042 - src.data_processor - INFO - Joining datasets on employee_no
+2025-03-24 01:10:15,046 - src.data_processor - INFO - Joined dataset created with 15 records
+2025-03-24 01:10:17,144 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:10:17,146 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 01:10:17,225 - src.data_processor - ERROR - Error analyzing schema: a must be greater than 0 unless no samples are taken
+2025-03-24 01:10:17,225 - src.data_processor - INFO - Deriving experience from 'service_days_adj'
+2025-03-24 01:10:17,227 - src.data_processor - INFO - Using 'performance' to derive personality traits
+2025-03-24 01:10:17,229 - src.data_processor - INFO - Project information found in HRM data
+2025-03-24 01:10:17,230 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 01:10:17,231 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 01:10:17,248 - src.data_processor - INFO - Schema analysis completed for work dataset
+2025-03-24 01:10:17,249 - src.data_processor - INFO - Work data has employee_no but not employee_name
+2025-03-24 01:10:17,250 - src.data_processor - INFO - Using work_summary as description
+2025-03-24 01:10:17,251 - src.data_processor - INFO - Attempting to extract project information from work_summary
+2025-03-24 01:10:17,252 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 01:10:17,254 - src.data_processor - INFO - Relationship analysis completed between datasets
+2025-03-24 01:10:17,256 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:10:17,606 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:10:17,607 - src.llm_service - ERROR - Error analyzing data structure: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:10:17,613 - src.data_processor - INFO - Joining HRM and Work datasets
+2025-03-24 01:10:17,614 - src.data_processor - INFO - Joining datasets on employee_no
+2025-03-24 01:10:17,619 - src.data_processor - INFO - Joined dataset created with 15 records
+2025-03-24 01:10:29,291 - src.llm_service - INFO - LLMService initialized with model: llama-3.3-70b-versatile
+2025-03-24 01:10:29,294 - src.data_processor - INFO - Loading HRM Master Dataset
+2025-03-24 01:10:29,372 - src.data_processor - ERROR - Error analyzing schema: a must be greater than 0 unless no samples are taken
+2025-03-24 01:10:29,373 - src.data_processor - INFO - Deriving experience from 'service_days_adj'
+2025-03-24 01:10:29,373 - src.data_processor - INFO - Using 'performance' to derive personality traits
+2025-03-24 01:10:29,376 - src.data_processor - INFO - Project information found in HRM data
+2025-03-24 01:10:29,377 - src.data_processor - INFO - HRM data loaded successfully with 18 records
+2025-03-24 01:10:29,378 - src.data_processor - INFO - Loading Work Summary Dataset
+2025-03-24 01:10:29,395 - src.data_processor - INFO - Schema analysis completed for work dataset
+2025-03-24 01:10:29,396 - src.data_processor - INFO - Work data has employee_no but not employee_name
+2025-03-24 01:10:29,396 - src.data_processor - INFO - Using work_summary as description
+2025-03-24 01:10:29,397 - src.data_processor - INFO - Attempting to extract project information from work_summary
+2025-03-24 01:10:29,398 - src.data_processor - INFO - Work data loaded successfully with 15 records
+2025-03-24 01:10:29,401 - src.data_processor - INFO - Relationship analysis completed between datasets
+2025-03-24 01:10:29,402 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:10:29,563 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:10:29,564 - src.llm_service - ERROR - Error analyzing data structure: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:10:29,568 - src.data_processor - INFO - Joining HRM and Work datasets
+2025-03-24 01:10:29,569 - src.data_processor - INFO - Joining datasets on employee_no
+2025-03-24 01:10:29,574 - src.data_processor - INFO - Joined dataset created with 15 records
+2025-03-24 01:10:29,587 - src.llm_service - INFO - Data context set successfully
+2025-03-24 01:10:29,588 - src.candidate_recommender - INFO - CandidateRecommender initialized
+2025-03-24 01:10:29,589 - src.candidate_recommender - INFO - Finding top 5 candidates for Sales Manager role based on performance
+2025-03-24 01:10:29,593 - src.candidate_recommender - INFO - Using performance ratings for scoring
+2025-03-24 01:10:29,607 - src.candidate_recommender - INFO - Using experience for scoring
+2025-03-24 01:10:29,610 - src.candidate_recommender - INFO - Analyzing project involvement for scoring
+2025-03-24 01:10:29,616 - src.candidate_recommender - INFO - Found 5 qualified candidates
+2025-03-24 01:10:29,617 - src.llm_service - INFO - Enhancing structured response for prompt: Identify the top 5 candidates for a Sales Manager ...
+2025-03-24 01:10:29,662 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:10:29,665 - src.llm_service - ERROR - Error enhancing response: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
+2025-03-24 01:17:11,411 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:17:11,414 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:17:11,554 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:17:11,554 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:17:19,586 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:17:19,587 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:17:19,690 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:17:19,691 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:17:23,442 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:17:23,445 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:17:23,548 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:17:23,548 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:17:29,970 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:17:29,972 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:17:30,084 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:17:30,085 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:17:30,089 - src.llm_service - ERROR - Error processing query: Object of type Timestamp is not JSON serializable
+2025-03-24 01:19:51,373 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:19:51,376 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:19:51,516 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:19:51,517 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:20:40,415 - src.llm_service - INFO - LLMService initialized
+2025-03-24 01:20:40,417 - src.data_processor - INFO - Loading Excel datasets
+2025-03-24 01:20:40,605 - src.data_processor - INFO - Data loaded successfully
+2025-03-24 01:20:40,606 - src.llm_service - INFO - Data set for LLM service
+2025-03-24 01:20:40,786 - httpx - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 401 Unauthorized"
+2025-03-24 01:20:40,787 - src.llm_service - ERROR - Error processing query: Error code: 401 - {'error': {'message': 'Invalid API Key', 'type': 'invalid_request_error', 'code': 'invalid_api_key'}}
